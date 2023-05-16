@@ -5,4 +5,4 @@ This program includes:
  b) Finding existence of Hamiltonian Path; 
  c) Finding Depth First Search 
  d) Finding Graph's Radius and Diameter
- e) Showing Graph's image
+ e) Showing Graph image
