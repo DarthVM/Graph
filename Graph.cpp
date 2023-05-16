@@ -354,7 +354,8 @@ void Graph::Keys() {
     while (true) {
         cin.ignore();
         cout << "Choose option:\n" << "1 - Check on Eulerian\t2 - Check on Hamiltonian\t3 - Depth First Search\n"
-                                      "4 -  Graph's Radius and Diameter\t5 - Print Vertexes\t6 - Print Edges\n0/E - Exit\n" << "Your Choice:\t";
+                                      "4 -  Graph's Radius and Diameter\t5 - Print Vertexes\t6 - Print Edges\n"
+                                      "0/E - (Show Graph image) Exit\n" << "Your Choice:\t";
         getline(cin, k); NL
         for (char c: k) {
             if (c != ' ')
@@ -423,8 +424,10 @@ void Graph::Keys() {
                     default:
                         break;
                 }
-            if (c=='E' || c=='e' || c=='0') exit(0);
+            if (c=='E' || c=='e' || c=='0')  return;
         }
+        if (( *k.end() )=='E' || ( *k.end() )=='e' || ( *k.end() )=='0')
+            return;
     }
 
 }
