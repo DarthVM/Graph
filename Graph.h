@@ -72,7 +72,7 @@ public:
     int *Diameter(); // Graph's Diameter
     static bool Is_Bridge(list<Edge>&, int); // Returns true if Edge is the Bridge, false if it is not
     bool FleuryAlg(list<Edge>&, list<int>&, int, int); // Fleury Algorithm for Eulerian Cycle; Recursive method
-    string Is_Eulerian(int); // Checks Graph is Eulerian; returns 0 if None; returns 1 if Eulerian; returns 2 if Half Eulerian
+    string Is_Eulerian(int); // Checks if Graph is Eulerian; returns 0 if None; returns 1 if Eulerian; returns 2 if Half Eulerian
     string Is_Hamiltonian(int); // Checks Graph is Hamiltonian; returns 0 if None; returns 1 if Hamiltonian; returns 2 if Half Hamiltonian
     void Depth_FS(list<int> &, int);
     void Rec_Call(bool, int, list<int>&); // Function for calling recursive function DFS
