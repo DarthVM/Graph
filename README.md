@@ -1,6 +1,6 @@
 # Graph_alpha
 This is a Graph Representation with a visual part created using Qt5 Library.
-This program is:
+This program:
  a) Finds an Eulerian Path; 
  b) Finds an existence of Hamiltonian Path; 
  c) Finds a Depth First Search;
