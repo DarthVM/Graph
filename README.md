@@ -1,10 +1,10 @@
 # Graph_alpha
-This is a Graph Representation with visual part created with QT5 Library.
-This program includes:
- a) Finding Eulerian Path; 
- b) Finding existence of Hamiltonian Path; 
- c) Finding Depth First Search;
- d) Finding Graph's Radius and Diameter;
- e) Showing Graph image (works only with edges in .txt file)
+This is a Graph Representation with a visual part created using Qt5 Library.
+This program is:
+ a) Finds an Eulerian Path; 
+ b) Finds an existence of Hamiltonian Path; 
+ c) Finds a Depth First Search;
+ d) Finds the Graph's Radius and Diameter;
+ e) Shows a Graph image (works only with edges in .txt file)
  
  
